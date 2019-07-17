@@ -1,0 +1,39 @@
+<!-- Depending on screen size, the appropriate image is fetched.
+    As there is no image displayed on screens smaller than 'medium', a 1px x 1px transparent gif is loaded instead of an image.  -->
+    <picture class="d-none d-md-block">
+            <source media="(max-width: 574px)"
+                srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+            <source media="(max-width: 767px)"
+                srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+            <source media="(max-width: 991px)" srcset="https://i1.adis.ws/i/dfs/sw_faq_removable-cover_335_2x">
+            <source media="(max-width: 1199px)" srcset="https://i1.adis.ws/i/dfs/sw_faq_removable-cover_570_2x">
+            <source media="(max-width: 1439px)" srcset="https://i1.adis.ws/i/dfs/sw_faq_removable-cover_570_2x">
+            <img src="https://i1.adis.ws/i/dfs/sw_faq_removable-cover_570_2x" alt="Removable covers">
+        </picture>
+        
+        
+        
+        
+        <!-- empty template / break points set to Bootstrap standard / if screen larger than 1440 then default to <img src....>   -->
+        
+        <picture>
+            <!-- base64 1px square of transparent gif  / for a placeholder when 'display : none;' -->
+            <source media="(max-width: 574px)"
+                srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+            <source media="(max-width: 767px)" srcset="">
+            <source media="(max-width: 991px)" srcset="">
+            <source media="(max-width: 1199px)" srcset="">
+            <source media="(max-width: 1439px)" srcset="">
+            <img src="" alt="">
+        </picture>
+        
+        
+        <picture>
+            <source media="(max-width: 574px)" srcset="">
+            <source media="(max-width: 767px)" srcset="">
+            <source media="(max-width: 991px)" srcset="">
+            <source media="(max-width: 1199px)" srcset="">
+            <source media="(max-width: 1439px)" srcset="">
+            <img src="" alt="">
+        </picture>
+        

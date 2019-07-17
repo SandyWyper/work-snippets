@@ -1,0 +1,11 @@
+.return-to-top {
+  background: url('insert-buttonimage') no-repeat;
+  background-size: 60%;
+  height: 80px;
+  width: 80px;
+  position: fixed;
+  right:0px;
+  bottom:50px;
+  z-index: 1314;
+  display: none;
+}
